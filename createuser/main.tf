@@ -1,4 +1,4 @@
-terraform {
+eterraform {
   required_providers {
     aws = {
       source  = "hashicorp/aws"
@@ -15,5 +15,5 @@ provider "aws" {
 }
 
 resource "aws_iam_user" "lb" {
-  name = "Adam"
+  name = "username"
 }
